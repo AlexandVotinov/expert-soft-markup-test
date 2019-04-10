@@ -1,0 +1,133 @@
+@font-face {
+ font-family: Open Sans;
+ src: url(fonts/16132.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+.main-container{
+    max-width: 1200px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.card-book{
+    display: inline-block;
+    width: 350px;
+    height: 530px;
+    margin: 30px;
+    background-color: #efefef;
+}
+
+.card-book:hover .card-book-appearance-info{
+    margin-top: -5px;    
+    transition: 0.3s;
+}
+
+.card-book:hover .card-book-par{
+    visibility: visible;
+}
+
+.card-book-appearance{
+    position: relative;
+    width: 300px;
+    height: 410px;
+    margin: 25px 25px auto 25px;
+    background-color: white;
+}
+
+.card-book-appearance-new{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 15px;
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-book-par{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 70px;
+    height: 200px;
+    visibility: hidden;
+}
+
+.card-book-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: #efefef;
+    color: #666;
+    cursor: pointer;
+}
+
+.card-book-circle:hover{
+    background-color: #666;
+    color: #efefef;
+    
+}
+
+.card-book-appearance-image{
+    width: 200px;
+}
+
+.card-book-appearance-image img{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.card-book-appearance-info{
+    width: 300px;
+    height: 92px;
+    margin-top: 55px;
+    padding-top: 8px;
+    background-color: white;
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+    transition: 0.3s;
+}
+
+.card-book-appearance-info p:nth-child(1){
+    color: gray;
+}
+
+.card-book-appearance-info p:nth-child(2){
+    color: #DAA520;
+}
+
+.card-book-appearance-info p:nth-child(4){
+    color: #DAA520;
+    font-size: 15px;
+    color: black;
+}
+
+red{
+    color: red;
+}
+
+.add-to-cart{
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #1E90FF;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
